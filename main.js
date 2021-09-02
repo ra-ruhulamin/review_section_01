@@ -1,0 +1,19 @@
+$('.Review-op').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:2000,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})

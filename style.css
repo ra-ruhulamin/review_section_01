@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* ---sections-6  */
+
+.Review{
+    max-width: 1000px;
+    margin: 50px auto 100px auto;
+}
+
+.Review h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    line-height: 0;
+    color: red;
+    margin-bottom: 100px;
+
+}
+.Review h1 span{
+    line-height: 0;
+    padding: 1px 15px;
+    margin: 0 2px;
+    background-color: rgba(255, 0, 0, 0.274);
+}
+
+.Review-op{
+    margin: 0 auto;
+    max-width: 1100px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.432);
+
+}
+.Review-op .item{
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.Review-op .item img{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.Review-op .item h3{
+    text-align: center;
+    margin-top: 20px;
+font-family: 'Baloo 2', cursive;
+    font-size: 1.5rem;
+    color: rgb(48, 17, 17);
+    line-height: 20px;
+}
+.Review-op .item p{
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: .7rem;
+    color: rgb(48, 17, 17);
+}
+
+
+.Review-op .item div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.Review-op .item div i{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+    
+    .Review h1{
+        font-size: 1.5rem;
+    
+    }
+
+    .Review h1 span{
+        line-height: 0;
+        padding: 1px 8px;
+        margin: 0 2px;
+        background-color: rgba(255, 0, 0, 0.274);
+    }   
+
+}
